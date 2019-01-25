@@ -1,0 +1,13 @@
+.bg-azul-uno{
+	background-color: #0071BC;
+}
+
+.bg-menu-uno{
+	background-image: url('../img/menu_bg.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 85% 95%;
+}
+.mx-alto-uno{
+	height: 100px !important;
+}
