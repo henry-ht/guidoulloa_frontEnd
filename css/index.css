@@ -1,3 +1,6 @@
+html{
+	outline: none !important;
+}
 .bg-azul-uno{
 	background-color: #0071BC;
 }
@@ -6,8 +9,80 @@
 	background-image: url('../img/menu_bg.png');
 	background-repeat: no-repeat;
 	background-position: center top;
-	background-size: 85% 95%;
+	background-size: 65% 45%;
 }
+
+.bg-menu-dos{
+	background-image: url('../img/adorno_1.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% 95%;
+}
+
+.bg-menu-tres{
+	box-shadow: none;
+	background-image: url('../img/menu_bg.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% 100%;
+}
+
+.bg-menu-cuatro{
+	background-image: url('../img/adorno_2.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% 100%;
+}
+
 .mx-alto-uno{
-	height: 100px !important;
+	height: 10em !important;
+}
+.mx-ancho-uno{
+	width: 6em !important;
+}
+
+.mx-ancho-dos{
+	width: 5em !important;
+}
+
+.mt-menos-1{
+	margin-top: -8em !important;
+}
+
+.mx-alto-dos{
+	height: 12em !important;
+}
+
+.mx-alto-tres{
+	height: 8em !important;
+}
+
+.colapso{
+	clear: both;
+}
+
+@media (max-width: 768px)  {
+
+	.bg-menu-uno{
+		box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+		background-color:  #0071BC;
+		background-image: url('');
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: 100% 100%;
+	}
+
+	.colapso{
+		-ms-flex-preferred-size: 100%;
+	    flex-basis: 100%;
+	    -ms-flex-positive: 1;
+	    flex-grow: 1;
+	    -ms-flex-align: center;
+	    align-items: center;
+	}
+
+	.mx-ancho-dos{
+		width: 10em !important;
+	}
+	
 }
