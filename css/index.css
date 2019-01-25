@@ -34,6 +34,17 @@ html{
 	background-size: 100% 100%;
 }
 
+.bg-decoracion-uno{
+	background-image: url('../img/bg-uno.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.active-menu{
+	border-bottom: 1px solid #fff;
+}
+
 .mx-alto-uno{
 	height: 10em !important;
 }
@@ -53,12 +64,36 @@ html{
 	height: 12em !important;
 }
 
+.mx-alto-cuatro{
+	height: 18em !important;
+}
+
 .mx-alto-tres{
 	height: 8em !important;
 }
 
 .colapso{
 	clear: both;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* min-width: 100%;
+    min-height: 100%; */
+    font-size: 0.8em;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
 }
 
 @media (max-width: 768px)  {

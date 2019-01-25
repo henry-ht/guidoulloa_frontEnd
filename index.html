@@ -8,6 +8,7 @@
 	</title>
 
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="node_modules/angular-loading-bar/build/loading-bar.min.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/index.css">
@@ -26,28 +27,30 @@
 		    	<div class="collapse navbar-collapse " id="navbarNav" >
 
 		    		<ul class="font-weight-bold navbar-nav  mx-auto " >
-						<li class="nav-item text-center pt-3">
-							<a class="nav-link text-white" ui-sref="inicio" >INICIO</a>
+						<li class="nav-item text-center p-2" >
+							<a class="nav-link text-white p-0 mt-2" ui-sref="inicio" ui-sref-active="active-menu" >
+								INICIO
+							</a>
 						</li>
-						<li class="nav-item text-center pt-3">
-							<a class="nav-link text-white" ui-sref="proyectos" >PROYECTO</a>
+						<li class="nav-item text-center p-2"  >
+							<a class="nav-link text-white p-0 mt-2" ui-sref="proyectos" ui-sref-active="active-menu" >PROYECTO</a>
 						</li>
-						<li class="nav-item text-center pt-3">
-							<a class="nav-link text-white" href="#">UBICACION</a>
+						<li class="nav-item text-center p-2">
+							<a class="nav-link text-white p-0 mt-2" href="#">UBICACION</a>
 						</li>
 
 						<li class="nav-item bg-menu-dos mx-alto-dos d-none d-lg-block">
 							<img src="img/logo_1.png" class="w-50 mx-auto d-block mt-5" alt="">
 						</li>
 
-						<li class="nav-item text-center pt-3">
-							<a class="nav-link text-white" href="#">PLANOS</a>
+						<li class="nav-item text-center p-2">
+							<a class="nav-link text-white p-0 mt-2" href="#">PLANOS</a>
 						</li>
-						<li class="nav-item text-center pt-3">
-							<a class="nav-link text-white" href="#">GALERIA</a>
+						<li class="nav-item text-center p-2">
+							<a class="nav-link text-white p-0 mt-2" href="#">GALERIA</a>
 						</li>
-						<li class="nav-item  text-center pt-3">
-							<a class="nav-link text-white" href="#">CONTACTO</a>
+						<li class="nav-item  text-center p-2">
+							<a class="nav-link text-white p-0 mt-2" href="#">CONTACTO</a>
 						</li>
 					</ul>
 		    		
@@ -73,6 +76,8 @@
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
+  	<script src="node_modules/angular-resource/angular-resource.min.js"></script>
+  	<script src="node_modules/angular-button-spinner/dist/angular-button-spinner.min.js"></script>
 	<script src="node_modules/oclazyload/dist/ocLazyLoad.min.js"></script>
 	<script src="node_modules/angular-loading-bar/build/loading-bar.min.js"></script>
 	<script src="node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
